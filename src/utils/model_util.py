@@ -32,8 +32,8 @@ def load_checkpoint(model, optimizer, filename='checkpoint.pth.tar', device='cpu
         start_epoch = checkpoint['epoch']
         model.load_state_dict(checkpoint['state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer'])
-        print("=> loaded checkpoint '{}' (epoch {})"
-              .format(filename, checkpoint['epoch']))
+        print("=> loaded checkpoint '{}'"
+              .format(filename))
     else:
         print("=> no checkpoint found at '{}'".format(filename))
 
