@@ -1,0 +1,8 @@
+{
+  "path_to_raw_data": "./data/MAGPIE/processed/MAGPIE_random_read_comp_data.json",
+  "path_to_target_vocab": "./data/MAGPIE/processed/MAGPIE_read_comp_target_vocab.json",
+  "path_to_char_vocab": "./data/MAGPIE/processed/MAGPIE_random_read_comp_char_vocab.json",
+  "path_to_glove_embed": "./data/MAGPIE/processed/MAGPIE_random_read_comp_glove_embed.npy",
+  "path_to_glove_vocab": "./data/MAGPIE/processed/MAGPIE_random_read_comp_glove_vocab.json",
+  "path_to_pos_vocab": "./data/MAGPIE/processed/MAGPIE_random_read_comp_pos_vocab.json"
+}
